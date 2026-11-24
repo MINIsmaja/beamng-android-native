@@ -1,0 +1,335 @@
+{
+ "schemaVersion": 1,
+ "id": 0,
+ "name": "BeamNG Driving",
+ "cursorSpeed": 1.0,
+ "includedSections": [
+  "onScreen",
+  "gyro"
+ ],
+ "elements": [
+  {
+   "type": "STICK",
+   "shape": "CIRCLE",
+   "bindings": [
+    "GAMEPAD_LEFT_THUMB_UP",
+    "GAMEPAD_LEFT_THUMB_RIGHT",
+    "GAMEPAD_LEFT_THUMB_DOWN",
+    "GAMEPAD_LEFT_THUMB_LEFT"
+   ],
+   "scale": 1.25,
+   "x": 0.112,
+   "y": 0.735,
+   "toggleSwitch": false,
+   "text": "",
+   "iconId": 0,
+   "buttonOpacity": 0.55
+  },
+  {
+   "type": "STICK",
+   "shape": "CIRCLE",
+   "bindings": [
+    "GAMEPAD_RIGHT_THUMB_UP",
+    "GAMEPAD_RIGHT_THUMB_RIGHT",
+    "GAMEPAD_RIGHT_THUMB_DOWN",
+    "GAMEPAD_RIGHT_THUMB_LEFT"
+   ],
+   "scale": 0.68,
+   "x": 0.05120291231402344,
+   "y": 0.165,
+   "toggleSwitch": false,
+   "text": "",
+   "iconId": 0,
+   "buttonOpacity": 0.4
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GYRO_MODIFIER",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.82,
+   "x": 0.05120291231402344,
+   "y": 0.315,
+   "toggleSwitch": false,
+   "text": "TILT",
+   "iconId": 0,
+   "buttonColor": "#AF7AC5",
+   "buttonActiveColor": "#E8DAEF",
+   "buttonOpacity": 0.6,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GAMEPAD_DPAD_LEFT",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.82,
+   "x": 0.05120291231402344,
+   "y": 0.405,
+   "toggleSwitch": false,
+   "text": "REWIND",
+   "iconId": 0,
+   "buttonColor": "#FFFFFF",
+   "buttonOpacity": 0.45,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GAMEPAD_DPAD_RIGHT",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.82,
+   "x": 0.05120291231402344,
+   "y": 0.495,
+   "toggleSwitch": false,
+   "text": "RESET",
+   "iconId": 0,
+   "buttonColor": "#FFFFFF",
+   "buttonOpacity": 0.45,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "SQUARE",
+   "bindings": [
+    "GAMEPAD_BUTTON_R2",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 2.3,
+   "x": 0.942,
+   "y": 0.705,
+   "toggleSwitch": false,
+   "text": "GAS",
+   "iconId": 0,
+   "buttonColor": "#2ECC71",
+   "buttonActiveColor": "#A9F5C8",
+   "buttonOpacity": 0.6,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "SQUARE",
+   "bindings": [
+    "GAMEPAD_BUTTON_L2",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 2.0,
+   "x": 0.818,
+   "y": 0.765,
+   "toggleSwitch": false,
+   "text": "BRAKE",
+   "iconId": 0,
+   "buttonColor": "#E74C3C",
+   "buttonActiveColor": "#F5B7B1",
+   "buttonOpacity": 0.6,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "CIRCLE",
+   "bindings": [
+    "GAMEPAD_BUTTON_B",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 1.1,
+   "x": 0.818,
+   "y": 0.515,
+   "toggleSwitch": false,
+   "text": "B·HBRAKE",
+   "iconId": 0,
+   "buttonColor": "#F39C12",
+   "buttonActiveColor": "#FAD7A0",
+   "buttonOpacity": 0.55,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GAMEPAD_BUTTON_Y",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.82,
+   "x": 0.9487970876859766,
+   "y": 0.295,
+   "toggleSwitch": false,
+   "text": "Y·CAM",
+   "iconId": 0,
+   "buttonColor": "#FFFFFF",
+   "buttonOpacity": 0.45,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GAMEPAD_BUTTON_A",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.82,
+   "x": 0.9487970876859766,
+   "y": 0.385,
+   "toggleSwitch": false,
+   "text": "A·GEAR+",
+   "iconId": 0,
+   "buttonColor": "#5DADE2",
+   "buttonActiveColor": "#D6EAF8",
+   "buttonOpacity": 0.5,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GAMEPAD_BUTTON_X",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.82,
+   "x": 0.9487970876859766,
+   "y": 0.475,
+   "toggleSwitch": false,
+   "text": "X·GEAR-",
+   "iconId": 0,
+   "buttonColor": "#5DADE2",
+   "buttonActiveColor": "#D6EAF8",
+   "buttonOpacity": 0.5,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "KEY_H",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.82,
+   "x": 0.9487970876859766,
+   "y": 0.12,
+   "toggleSwitch": false,
+   "text": "HORN",
+   "iconId": 0,
+   "buttonColor": "#FFFFFF",
+   "buttonOpacity": 0.45,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GAMEPAD_BUTTON_START",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.72,
+   "x": 0.655,
+   "y": 0.062,
+   "toggleSwitch": false,
+   "text": "MENU",
+   "iconId": 0,
+   "buttonColor": "#FFFFFF",
+   "buttonOpacity": 0.4,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GAMEPAD_BUTTON_SELECT",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.72,
+   "x": 0.725,
+   "y": 0.062,
+   "toggleSwitch": false,
+   "text": "MAP",
+   "iconId": 0,
+   "buttonColor": "#FFFFFF",
+   "buttonOpacity": 0.4,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "GAMEPAD_DPAD_UP",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.72,
+   "x": 0.795,
+   "y": 0.062,
+   "toggleSwitch": false,
+   "text": "RADIAL",
+   "iconId": 0,
+   "buttonColor": "#FFFFFF",
+   "buttonOpacity": 0.4,
+   "lookThrough": false
+  },
+  {
+   "type": "BUTTON",
+   "shape": "ROUND_RECT",
+   "bindings": [
+    "KEY_N",
+    "NONE",
+    "NONE",
+    "NONE"
+   ],
+   "scale": 0.72,
+   "x": 0.865,
+   "y": 0.062,
+   "toggleSwitch": false,
+   "text": "LIGHTS",
+   "iconId": 0,
+   "buttonColor": "#FFFFFF",
+   "buttonOpacity": 0.4,
+   "lookThrough": false
+  }
+ ],
+ "gyroSettings": {
+  "mode": 1,
+  "lastTarget": 1,
+  "activationMode": 2,
+  "conversionStyle": 0,
+  "inputPriority": 0,
+  "sensitivity": 1.0,
+  "verticalScale": 1.0,
+  "steadyingDegreesPerSecond": 1.0,
+  "smoothingMilliseconds": 25.0,
+  "stickAntiDeadzone": 0.1,
+  "tiltSteeringEnabled": true,
+  "tiltFullScaleDegrees": 28.0,
+  "tiltDeadzoneDegrees": 1.5,
+  "invertX": false,
+  "invertY": false
+ }
+}

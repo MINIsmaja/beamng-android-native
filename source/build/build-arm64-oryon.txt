@@ -1,0 +1,21 @@
+[binaries]
+c = '@TOOLCHAIN@/aarch64-w64-mingw32-clang'
+cpp = '@TOOLCHAIN@/aarch64-w64-mingw32-clang++'
+ar = '@TOOLCHAIN@/aarch64-w64-mingw32-ar'
+strip = '@TOOLCHAIN@/aarch64-w64-mingw32-strip'
+windres = '@TOOLCHAIN@/aarch64-w64-mingw32-windres'
+widl = '@TOOLCHAIN@/aarch64-w64-mingw32-widl'
+widl-mingw-tools-fallback = '@TOOLCHAIN@/aarch64-w64-mingw32-widl'
+
+[built-in options]
+c_args = ['-mcpu=oryon-1']
+cpp_args = ['-mcpu=oryon-1']
+
+[properties]
+needs_exe_wrapper = true
+
+[host_machine]
+system = 'windows'
+cpu_family = 'aarch64'
+cpu = 'aarch64'
+endian = 'little'
